@@ -8,6 +8,7 @@
 ```
 git clone https://github.com/WAY29/Sofinger.git
 cd Sofinger
+pip3 install -r requirements.txtx
 python3 Sofinger.py -h
 # 扫描结果会储存在 Results/网站域名 目录下
 ```
