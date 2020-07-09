@@ -1,0 +1,81 @@
+
+[Router]
+Router:2wire|headers|Server|2wire
+Router:2wire|headers|WWW-Authenticate|2wire
+Router:3com||index|index|<META Detect1=\"Company\" CONTENT=\"3COM\">
+Router:asmax|headers|WWW-Authenticate|Asmax
+Router:asus|headers|WWW-Authenticate|Asus
+Router:asus|index|index|<title>ASUS.*?Router.*?</title>
+Router:d-link-dcs|headers|WWW-Authenticate|DCS-
+Router:d-link-dir|headers|server|DIR-
+Router:juniper|index|index|<title>Log In - Juniper Web Device Manager</title>
+Router:linksys|headers|WWW-Authenticate|Basic realm=\"RT-
+Router:linksys|index|index|<meta name=\"description\" content=\"Included with your Linksys Smart Wi-Fi Router.*?\">
+Router:netcore|headers|WWW-Authenticate|NETCORE
+Router:netgear|headers|WWW-Authenticate|NETGEAR
+Router:technicolor|index|index|<img src=\"technicolor-logo.png\" alt=\"technicolor-logo\" .*?/>
+Router:thomson|headers|WWW-Authenticate|Thomson
+Router:tplink|headers|WWW-Authenticate|TP-LINK
+Router:ubiquiti|index|index|<meta name=\"copyright\" content=\"Copyright.*?Ubiquiti.*?Networks.*?\">
+Router:zte|headers|WWW-Authenticate|Basic realm=\"ZTE-
+Router:h3c|headers|WWW-Authenticate|h3c
+Router:h3c|index|index|<title>WEB Management Interface for H3C SecPath Series</title>| Hangzhou H3C
+Router:huawei|headers|WWW-Authenticate|huawei
+
+[camaera]
+Camera:hikvision|headers|Server|Hikvision-Webs
+Camera:hikvision|index|index|/doc/page/login.asp
+Camera:hikvision|headers|Server|DVRDVS-Webs
+Camera:hikvision|headers|server|DNVRS-Webs
+Camera:hikvision|headers|server|App-webs
+Camera:cctv|headers|Server|JAWS/1.0
+Camera:web-service|index|index|<title>WEB SERVICE</title>
+Camera:siemens-camera|index|index|<title>SIEMENS IP-Camera</title
+Camera:samsoftech|index|index|Developed By :  <.*?>SAM Softech
+Camera:zebra|index|index|<H1>Zebra Technologies<BR>
+Camera:routeros|index|index|<title>RouterOS router configuration page<\/title>
+
+[WAF]
+WAF:Topsec-Waf|index|index|<META NAME="Copyright" CONTENT="Topsec Network Security Technology Co.,Ltd"/>|<META NAME="DESCRIPTION" CONTENT="Topsec web UI"/>
+WAF:360|headers|X-Powered-By-360wzb|wangzhan\.360\.cn
+WAF:360|url|/wzws-waf-cgi/|360wzws
+WAF:Anquanbao|headers|X-Powered-By-Anquanbao|MISS
+WAF:Anquanbao|url|/aqb_cc/error/|ASERVER
+WAF:BaiduYunjiasu|headers|Server|yunjiasu-nginx
+WAF:BigIP|headers|Server|BigIP|BIGipServer
+WAF:BigIP|headers|Set-Cookie|BigIP|BIGipServer
+WAF:BinarySEC|headers|x-binarysec-cache|fill|miss
+WAF:BinarySEC|headers|x-binarysec-via|binarysec\.com
+WAF:BlockDoS|headers|Server|BlockDos\.net
+WAF:CloudFlare|headers|Server|cloudflare-nginx
+WAF:Cloudfront|headers|Server|cloudfront
+WAF:Cloudfront|headers|X-Cache|cloudfront
+WAF:Comodo|headers|Server|Protected by COMODO
+WAF:IBM-DataPower|headers|X-Backside-Transport|\A(OK|FAIL)
+WAF:DenyAll|headers|Set-Cookie|\Asessioncookie=
+WAF:dotDefender|headers|X-dotDefender-denied|1
+WAF:Incapsula|headers|X-CDN|Incapsula
+WAF:Jiasule|headers|Set-Cookie|jsluid=
+WAF:KONA|headers|Server|AkamaiGHost
+WAF:ModSecurity|headers|Server|Mod_Security|NOYB
+WAF:NetContinuum|headers|Cneonction|\Aclose
+WAF:NetContinuum|headers|nnCoection|\Aclose
+WAF:NetContinuum|headers|Set-Cookie|citrix_ns_id
+WAF:Newdefend|headers|Server|newdefend
+WAF:NSFOCUS|headers|Server|NSFocus
+WAF:Safe3|headers|X-Powered-By|Safe3WAF
+WAF:Safe3|headers|Server|Safe3 Web Firewall
+WAF:Safedog|headers|X-Powered-By|WAF/2\.0
+WAF:Safedog|headers|Server|Safedog
+WAF:Safedog|headers|Set-Cookie|Safedog
+WAF:SonicWALL|headers|Server|SonicWALL
+WAF:Stingray|headers|Set-Cookie|\AX-Mapping-
+WAF:Sucuri|headers|Server|Sucuri/Cloudproxy
+WAF:Usp-Sec|headers|Server|Secure Entry Server
+WAF:Varnish|headers|X-Varnish|.*?
+WAF:Varnish|headers|Server|varnish
+WAF:Wallarm|headers|Server|nginx-wallarm
+WAF:WebKnight|headers|Server|WebKnight
+WAF:Yundun|headers|Server|YUNDUN
+WAF:Yundun|headers|X-Cache|YUNDUN
+WAF:Yunsuo|headers|Set-Cookie|yunsuo

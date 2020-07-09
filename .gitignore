@@ -1,0 +1,14 @@
+zip.py
+work.py
+refresh_test.py
+new_cms.py
+SoFinger_process.py
+
+**/__pycache__/
+Include/
+Lib/
+tcl/
+Scripts/
+Results/
+tempCodeRunnerFile.py
+tempCodeRunnerFile.python
